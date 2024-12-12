@@ -1,0 +1,121 @@
+/* style.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  color: #221f1f;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #093980;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+.search {
+  display: flex;
+  justify-content: Center;
+  margin-bottom: 30px;
+}
+
+.search input {
+  width: 60%;
+  padding: 12px 15px;
+  border: 1px solid #0e469b;
+  border-radius: 6px 0 0 6px;
+  outline: none;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+.search button {
+  padding: 12px 20px;
+  border: none;
+  background-color: #0c3ca3;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 0 6px 6px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.search button:hover {
+  background-color: #0b2365;
+}
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.student-table th,
+.student-table td {
+
+  text-align: center;
+  padding: 12px 15px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.student-table th {
+  background-color: #103689;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.student-table tr:nth-child(even) {
+  background-color: #f9fafb;
+}
+
+.student-table tr:hover {
+  background-color: #f1f5f9;
+  cursor: pointer;
+}
+
+.student-table td a {
+  text-decoration: none;
+  color: #1e4bac;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+.student-table td a:hover {
+  color: #1e4ccc;
+}
+
+.add-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.add-button button {
+  background-color: #1122a4;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.add-button button:hover {
+  background-color: #0b1875;
+}
